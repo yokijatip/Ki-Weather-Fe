@@ -6,7 +6,7 @@ import Layout from './components/Layout.vue'
 
 <template>
   <!-- Gradient Background -->
-  <div class="bg-gradient-to-r from-cyan-300 to-blue-300 min-h-screen">
+  <div class="bg-linear-to-bl from-[#6aaefc] to-[#d2c4ba] min-h-screen">
     <Layout>
       <header>
         <div class="">
@@ -14,7 +14,7 @@ import Layout from './components/Layout.vue'
         </div>
       </header>
 
-      <main>
+      <main class="md:my-6">
         <RouterView />
       </main>
     </Layout>

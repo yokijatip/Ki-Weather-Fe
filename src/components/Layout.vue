@@ -12,8 +12,8 @@ const contentClass = [
   'sm:p-2', // Padding untuk layar kecil
   'md:p-4', // Padding untuk layar medium
   'lg:p-6', // Padding untuk layar besar
-  'xl:p-6', // Padding untuk layar extra besar
-  '2xl:p-10', // Padding untuk layar sangat besar
+  'xl:px-24 py-6', // Padding untuk layar extra besar
+  '2xl:px-82 py-6', // Padding untuk layar sangat besar
 ]
 </script>
 
